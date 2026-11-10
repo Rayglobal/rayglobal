@@ -1,52 +1,181 @@
-# Rayglobal Digital World website
+# Raymond Iruka Nkwuda
 
-Static site: HTML, CSS and vanilla JavaScript. No build step.
+### Founder & Lead Digital Consultant | Rayglobal Digital World
 
-## 1. Images to supply
-Place in `assets/images/`:
-- `rayglobal-logo.png` — full horizontal logo (used on email signatures, print, and `og:image` fallback)
-- `rayglobal-logo-icon.png` — square icon (used in header brand, favicon, apple touch icon)
-- `og-image.png` — **1200×630** social share image (brand colour background, logo centred, tagline)
-- Optional service banners: `service-documents.jpg`, `service-design.jpg`, `service-registration.jpg`, `service-applications.jpg`, `service-web.jpg`, `service-data.jpg`, `service-ict.jpg`, `service-finance.jpg` — each ~800×450, under 200 KB
-- Optional hero photo: `hero.jpg` — ~1600×900 (the hero now uses a CSS gradient, but `style.css` previously referenced this)
+**Digital Strategy · Web Engineering · Data Analysis · Creative Technology**
 
-Crop/adjust in any image editor and export as PNG (logos) or JPEG (photos). Do not resize or recolour the logo itself.
+I am a multidisciplinary digital consultant with **5+ years of experience** designing, developing, and delivering practical digital solutions for businesses, professionals, and organizations.
 
-## 2. Preview in VS Code
-Open the folder in VS Code, install the **Live Server** extension, right-click `index.html`, choose **Open with Live Server**.
+My work sits at the intersection of creative design, software engineering, data intelligence, and digital documentation. I approach projects from a systems perspective, combining visual communication with technical execution to transform ideas, operational challenges, and raw information into functional, structured, and scalable digital solutions.
 
-## 3. Deploy on Netlify
-Sign in at netlify.com, go to **Sites > Add new site > Deploy manually**, drag the whole project folder in. Your site goes live on a netlify.app address. Custom domain: **Domain management > Add a domain**, then follow Netlify's DNS instructions at your registrar.
+As the founder of **Rayglobal Digital World**, I oversee the complete digital project lifecycle, from concept development and brand architecture to frontend engineering, data preparation, documentation, and deployment.
 
-## 4. Editing
-- WhatsApp number, name, Forex switch: top of `assets/js/script.js`.
-- Brand colours: `:root` in `assets/css/style.css`.
-- Hero animations: `assets/css/hero.css` (this file is the single owner of `.hero`).
-- Service card animations: bottom of `assets/css/style.css`.
-- Phone, email, address, services text: in the HTML pages (search and replace across files in VS Code with Ctrl+Shift+H).
+My focus is not simply on creating digital assets, but on building solutions that are purposeful, technically sound, professionally presented, and aligned with real-world business objectives.
 
-## 5. Replace before publishing
-- `og-image.png` (1200×630) — place in `assets/images/`
-- **OG image versioning:** All pages reference `og-image.png?v=3`. When you replace the OG image, bump the `?v=` number (e.g. `?v=4`) in every page's `<meta property="og:image">` and `<meta property="og:image:url">`. Search across the project with Ctrl+Shift+H.
-- Social profile URLs for @Rayglobal1 (footer, marked by comment)
-- Forex/crypto service: hidden until `showForex` is true and you have confirmed the offer and legal position
-- Privacy policy: verify and get it reviewed
-- Custom domain (optional): change `https://rayglobaldigitalworld.netlify.app` to your final domain in all `<link rel="canonical">`, `<meta property="og:url">`, `<meta property="og:image">`, `robots.txt`, and `sitemap.xml`
+**Based in:** Enugu, Nigeria  
+**Professional Experience:** 5+ Years  
+**Organization:** [Rayglobal Digital World](https://rayglobaldigitalworld.netlify.app/)
 
-## 6. What works / what needs a service
-Works now: responsive layout, mobile menu, WhatsApp buttons with service prefill, form validation and WhatsApp enquiry (customer must press Send), FAQ, automatic year, popup-blocker fallback message, scroll-triggered service reveal.
-Needs an external service: stored or emailed form submissions (e.g. Netlify Forms), payments, analytics.
+## Professional Focus
 
-## 7. Testing checklist
-Open each page at 320, 375, 430, 768, 1024 and 1440px; check no sideways scrolling; open and close menu by touch, Enter and Esc; tap every WhatsApp button and confirm the number 2349064326182; submit the form empty, then valid (with popup blocked, then allowed); tab through pages and see focus outlines; check all links, including 404.html.
+| Discipline | Areas of Expertise |
+|---|---|
+| **Web Engineering** | Responsive web development, frontend architecture, interface implementation, and deployment |
+| **Data Analysis** | Data cleaning, transformation, exploratory analysis, and business intelligence |
+| **Graphic Design** | Visual identity systems, digital communication, marketing assets, and brand development |
+| **Digital Documentation** | Professional document design, CV development, reports, proposals, and application documentation |
 
-## 8. Design decisions
-- **Path convention:** All asset paths use absolute `/assets/...` form so 404.html and any future subdirectory routes resolve correctly.
-- **`.no-js` / `.js-ready`:** HTML `<html class="no-js">` is the default; `script.js` removes it and adds `.js-ready` on load. Service-card reveal animations and about-page reveals are gated on `.js-ready`.
-- **`.leader-avatar`:** Owned solely by `style.css`. `about.css` contains no avatar sizing rules.
-- **Navigation:** `.nav`, `.hdr-actions`, and `.wa-icon-btn` each have a single definition in `style.css`. No `!important` on `display`.
-- `.hero` is owned **only** by `hero.css` — never duplicated in `style.css`.
-- Service-card animation is scoped to `.services-grid .card.reveal` so it never affects the sample-work grid.
-- Header brand is icon + name on **every** page for consistency.
-- `theme-color` meta matches `--navy` so mobile Chrome address bar reflects the brand.
-- All reduced-motion preferences are honoured.
+## Technical Arsenal
+
+My technical toolkit combines programming languages, development frameworks, analytical technologies, and professional creative software.
+
+### Programming & Web Engineering
+
+- **Frontend:** React, JavaScript (ES6+), HTML5, CSS3
+- **Web Development:** Responsive design, component-based architecture, interface development
+- **Version Control:** Git, GitHub
+
+### Data Analytics & Processing
+
+- **Programming:** Python
+- **Python Libraries:** Pandas, NumPy
+- **Database Management:** SQL
+- **Data Processing:** Data cleaning, transformation, structuring, and analysis
+- **Business Analytics:** Advanced Microsoft Excel, data organization, and visual reporting
+
+### Creative & Visual Technologies
+
+- **Adobe Photoshop:** Image manipulation, photo retouching, visual composition, and digital graphics
+- **CorelDRAW Suite:** Vector graphics, logo design, print layout, and professional branding
+- **Brand Development:** Visual identity, brand consistency, and design systems
+- **Digital Communication:** Marketing creatives, corporate graphics, and presentation design
+
+### Professional Documentation
+
+- Microsoft Word
+- PDF document preparation and formatting
+- CV and professional portfolio development
+- Reports, proposals, and application packages
+- Structured digital documentation
+
+## Selected Projects & Professional Engagements
+
+My work spans software development, analytical problem-solving, and professional digital services.
+
+### 01. Rayglobal Digital World — Custom Agency Web Platform
+
+**Role:** Founder, Brand Architect & Frontend Developer  
+**Focus:** Web Engineering, UI Development, Brand Identity, Deployment
+
+Architected and developed a custom, mobile-first web platform for Rayglobal Digital World, establishing a cohesive digital presence for the agency.
+
+**Key Contributions:**
+- Designed and implemented the frontend architecture.
+- Developed responsive interfaces optimized for mobile and desktop experiences.
+- Created and integrated the agency's visual identity.
+- Structured service presentations and user-facing content.
+- Managed the deployment of the production website.
+
+**Live Platform:** [rayglobaldigitalworld.netlify.app](https://rayglobaldigitalworld.netlify.app/)
+
+### 02. Academic Research & Publication Support (Dr. Edwin Nkemjika Okafor)
+
+**Role:** Technical Documentation & Publishing Support  
+**Focus:** Document Engineering, Academic Formatting, Research Presentation
+
+Provided dedicated documentation and formatting support for **Dr. Edwin Nkemjika Okafor**, a medical researcher with multiple published articles in the *Nigerian Medical Journal* and other peer-reviewed publications [citation:1][citation:14].
+
+**Key Contributions:**
+- Structured and formatted research manuscripts for journal submission.
+- Ensured compliance with academic publishing standards and citation guidelines.
+- Prepared supporting documentation for the editor and research team.
+- Maintained consistency across complex medical terminology and data presentation.
+- Supported the final production of publication-ready materials.
+
+**Outcome:** Contributed to the successful preparation and publication of medical research articles, including studies on thyroid disorders and hypertension in Nigerian populations [citation:2].
+
+### 03. Business Data Cleaning & Analytical Reporting
+
+**Role:** Data Analyst  
+**Focus:** Python, Pandas, NumPy, SQL, Advanced Excel
+
+Worked with disorganized business datasets, transforming inconsistent raw information into structured, usable data for operational analysis.
+
+**Key Contributions:**
+- Identified and addressed data inconsistencies.
+- Cleaned and standardized datasets.
+- Organized information into structured analytical formats.
+- Prepared visual summaries to communicate important findings.
+- Transformed raw data into more accessible information for operational decision-making.
+
+**Outcome:** Improved data organization, interpretability, and the usability of business information.
+
+### 04. Professional Documentation & Digital Publishing
+
+**Role:** Digital Documentation Specialist  
+**Focus:** Document Engineering, Information Architecture, Professional Design
+
+Prepared high-stakes professional documents for graduates, professionals, and individuals pursuing academic and career opportunities.
+
+**Key Contributions:**
+- Developed and redesigned professional CVs and resumes.
+- Structured academic and professional application packages.
+- Formatted reports, proposals, and formal correspondence.
+- Improved document readability, presentation, and consistency.
+- Prepared polished Word and PDF deliverables.
+
+**Outcome:** Professionally structured documentation designed to meet formal presentation and communication requirements.
+
+## How I Approach Digital Solutions
+
+I combine four complementary capabilities to deliver end-to-end digital solutions:
+
+| Capability | Approach | Intended Outcome |
+|---|---|---|
+| Creative Thinking | Design systems and visual communication | Clear and consistent digital experiences |
+| Technical Execution | Software development and implementation | Functional and maintainable solutions |
+| Analytical Thinking | Data processing and interpretation | Better-informed decisions |
+| Information Architecture | Documentation and content structuring | Accessible and professionally organized information |
+
+This multidisciplinary approach allows me to understand both the presentation layer and the underlying technical requirements of a project.
+
+## Professional Philosophy
+
+I believe effective digital solutions require more than technical knowledge in isolation.
+
+Good engineering should solve a defined problem. Good design should improve communication and usability. Good analysis should make information actionable. Good documentation should make complex information understandable.
+
+I bring these principles together to deliver solutions that connect business objectives with practical technology.
+
+## Rayglobal Digital World
+
+**Rayglobal Digital World** is a Nigerian digital solutions company focused on helping individuals, professionals, and businesses establish, improve, and manage their digital presence.
+
+Our services span:
+
+- Web design and development
+- Graphic design and brand identity
+- Data organization and analytical support
+- Professional document preparation
+- Digital publishing and creative solutions
+- Technology-driven business support
+
+**Business Registration:** BN9326785  
+**Website:** [rayglobaldigitalworld.netlify.app](https://rayglobaldigitalworld.netlify.app/)
+
+## Professional Contact
+
+I welcome professional collaborations, consulting engagements, development opportunities, and conversations around technology-driven solutions.
+
+| Channel | Contact |
+|---|---|
+| **Website** | [Rayglobal Digital World](https://rayglobaldigitalworld.netlify.app/) |
+| **Email** | [rayglobaldigitalworld@gmail.com](mailto:rayglobaldigitalworld@gmail.com) |
+| **WhatsApp** | [Direct Contact](https://wa.me/2349064326182) |
+| **Location** | Enugu, Nigeria |
+
+**Raymond Iruka Nkwuda**  
+Founder & Lead Digital Consultant  
+**Rayglobal Digital World**
+
+*Building practical digital solutions through design, engineering, and data.*
