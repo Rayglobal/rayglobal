@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- ========================================== -->
+  <!-- CORE PAGES                                 -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/about.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/services.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/portfolio.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/contact.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/privacy-policy.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- ========================================== -->
+  <!-- BLOG HUB                                   -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ========================================== -->
+  <!-- PILLAR GUIDES (Comprehensive)              -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog/job-application-guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog/small-business-digital-guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog/data-analysis-career-guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ========================================== -->
+  <!-- QUICK READS (Supporting Articles)          -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog/ai-skills-digital-agency.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog/free-cac-registration-2026.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog/brand-differentiation-small-business.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog/cv-formatting.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog/website-speed-small-business.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog/web-design-trends.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog/data-cleaning.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog/scholarship-application-documents.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog/avoid-online-scams-nigeria.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rayglobaldigitalworld.netlify.app/blog/learn-data-analysis-free-2026.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
